@@ -1,0 +1,219 @@
+*{
+	margin:0 auto;
+	padding:0 auto;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.ui-header{
+	width:100%;
+	height:60px;
+	position:fixed;
+	float:left;
+	background:#0088FF;
+	top:0;
+}
+.ui-bar-a{ border:none;}
+
+.ui-page{ background:#FFF;}
+
+#logo-home{
+	width:175px;
+	height:30px;
+	margin-left:10px;
+	margin-top:17px;
+	position:relative;
+	float:left;
+	background-image:url(../img/logo-home.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#icon-config{
+	width:40px;
+	height:40px;
+	margin-top:15px;
+	margin-right:5px;
+	float:right;
+	position:relative;
+
+	cursor:pointer;
+}
+#icon-about{
+	width:40px;
+	height:40px;
+	margin-top:15px;
+	margin-right:10px;
+	float:right;
+	position:relative;
+	background-position:center;
+	cursor:pointer;
+}
+
+#play{
+	width:40%;
+	height:115px;
+	background:#0088FF;
+	position:relative;
+	float:left;
+	margin-top:40px;
+	margin-left:8%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	line-height: 115px;
+	cursor:pointer;
+	margin-bottom:10px;
+}
+#stop{
+	width:40%;
+	height:115px;
+	background:#669966;
+	position:relative;
+	float:right;
+	margin-top:40px;
+	margin-right:8%;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	line-height: 115px;
+	cursor:pointer;
+	margin-bottom:10px;
+}
+
+#full-page{ background:#000;}
+#pomodoro-circle{
+	width:200px;
+	height:200px;
+	border-radius:10em;
+	background:#F00;
+	margin-left:60px;
+	margin-top:140px;
+	position:relative;
+	float:left;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	line-height: 200px;
+	cursor:pointer;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+#sob-circle{
+	width:250px;
+	height:50px;
+	color:#FFF;
+	text-align:center;
+	margin-left:35px;
+	padding-top:10px;
+}
+
+#logo-config{
+	width:250px;
+	height:30px;
+	margin-left:15px;
+	margin-top:21px;
+	position:relative;
+	float:left;
+	background-image:url(../img/logo-config.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+#logo-sobre{
+	width:250px;
+	height:30px;
+	margin-left:15px;
+	margin-top:18px;
+	position:relative;
+	float:left;
+	background-image:url(../img/logo-about.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#icon-close{
+	width:40px;
+	height:40px;
+	margin-top:25px;
+	margin-right:5px;
+	float:right;
+	position:relative;
+	cursor:pointer;
+}
+
+#show_time{
+	width:80%;
+	height:50px;
+	background-color:#669966;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+	line-height: 50px;
+	border-radius:0.5em;
+	font-size:22px;
+	margin-top:30px;
+}
+
+.ui-input-text{
+	width:280px;
+	margin-left:-3px;
+	height:30px;
+	margin-top:5px;
+	border-radius: 0.5em;
+	border:solid #CCC 1px;
+}
+.ui-input-text:hover{
+	box-shadow: #CCC 0px 0px 1px 1px;
+}
+label.ui-input-text {
+    font-size: 16px;
+    line-height: 1.4;
+    display: block;
+    font-weight: normal;
+    margin: 0px 0px 0.3em;
+    border: none;
+}
+label.ui-input-text:hover{
+	box-shadow:none;
+}
+.fixed{
+	position:fixed;
+	margin-top:15px;
+}
+
+#title{
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+#sobre{
+	font-size:13px;
+	text-align:justify;
+	margin-bottom:10px;
+}
+#autor{
+	text-align:left;
+	position:absolute;
+}
+#autor a{
+	text-decoration:none;
+	color:#0088FF;
+}
+#mensagem{
+	width:90%;
+}
+#buttons{
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+	cursor:pointer;
+	
+}
+.selected{
+	box-shadow: #ccc 0px 0px 2px 2px;
+	border-radius:10em;
+	filter: grayscale(100%);
+}
