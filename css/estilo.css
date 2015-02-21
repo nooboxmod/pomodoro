@@ -217,3 +217,21 @@ label.ui-input-text:hover{
 	border-radius:10em;
 	filter: grayscale(100%);
 }
+.message {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+#save{
+	width:115px;
+	height:58px;
+	border:solid #669966 1px;
+	background: #669966;
+	color: #FFF;
+	margin-top:10px;
+	font-size:24px;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 58px;
+	cursor:pointer;
+}

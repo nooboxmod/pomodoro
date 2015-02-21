@@ -270,6 +270,8 @@ window.onload = function() {
 			$("#label_longbreak").html("Pausa longa:");
 			$("#save").html("Salvar");
 			$("#label_language").html("Idioma:");
+			$(".longtext").html("<div id='title'>O que é o Pomodoro</div><div id='sobre'>A <strong>Técnica Pomodoro</strong> é um método de gerenciamento de tempo desenvolvido por Francesco Cirillo no final dos anos 1980. A técnica utiliza um cronômetro para dividir o trabalho em períodos de 25 minutos chamados de 'pomodoros'.<br><p><strong>O método é baseado na ideia de que pausas frequentes podem aumentar a agilidade mental</strong> e busca fornecer uma resposta eficaz a um estado provocador de ansiedade chamado de <em>temporal 'becoming'</em> nos trabalhos de Henri Bergson e Eugene Minkowski.</p><br><p>Embora a técnica Pomodoro seja extremamente simples e fácil, ela não   deve ser usada simplesmente como um processo de acelerar o   desenvolvimento da tarefa, mas sim como uma unidade de esforço temporal   além do poder que ela tem de focar na tarefa, evitando distrações.   Portanto, além de você descobrir ao longo do tempo quais são as   atividades em que você seja menos produtivo, você poderá tentar se   desenvolver melhor nesses seus pontos mais fracos. São somente cinco os   passos básicos para implementar essa técnica</p><br><ol><li>Escolher a tarefa a ser executada</li><li>Ajustar o pomodoro (alarme) para 25 minutos</li><li>Trabalhar na tarefa até que o alarme toque; registrar com um 'x'</li><li>Fazer uma pausa curta (3 a 5 minutos)</li><li>A cada quatro 'pomodoros' fazer uma pausa mais longa (15-30 minutos)</li></ol></div>");
+			$("#label_save").html("Salvar");
 
 			if (!going)
 				$("#play").html("Começar");
@@ -285,6 +287,8 @@ window.onload = function() {
 			$("#label_longbreak").html("Longbreak:");
 			$("#save").html("Save");
 			$("#label_language").html("Language:");
+			$(".longtext").html("<div id='title'>What is Pomodoro</div><div id='sobre'>The <strong> Pomodoro Technique </strong> is a time management method developed by Francesco Cirillo in the late 1980. The technique uses a timer to divide the work in periods of 25 minutes called 'pomodoros'. Filmography <p> <strong> The method is based the idea that frequent breaks can increase mental alertness </strong> and seeks to provide an effective response to a provocative state of anxiety called <em> Secular 'Becoming' </em> in the work of Henri Bergson and Eugene Minkowski. </p> Filmography <p> Although the Pomodoro technique is extremely simple and easy, it should not be used simply as a process to speed up the development of the task, but as a temporal unit of effort beyond the power she has to focus on the task and avoid distractions. So besides you discover over time what are the activities in which you are less productive, you can try to develop better in these weakest points. Are only five basic steps to implement this technique </p> Filmography <ol> <li> Select the task to be performed </li> <li> Set the pomodoro (alarm) for 25 minutes </li> <li> Work on the task until the alarm to sound; register with an 'x' </li> <li> Take a short break (3-5 minutes) </li> <li> Every four 'pomodoros' make a longer break (15-30 minutes) </li> </ol> </div>");
+			$("#label_save").html("Save");
 
 			if (!going)
 				$("#play").html("Play");
